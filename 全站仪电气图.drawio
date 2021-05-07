@@ -1,17 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T02:07:04.253Z" agent="5.0 (Windows)" etag="62hg8PYTcwDfkFiAjidF" version="14.6.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-07T02:15:19.386Z" agent="5.0 (Windows)" etag="mHRAG_eoC1GiozoVfJEP" version="14.6.10" type="github" pages="2">
   <diagram name="锂电池组" id="099fd60b-425b-db50-ffb0-6b813814b670">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="CxHsm4b3Uza4CjxpnFzj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CxHsm4b3Uza4CjxpnFzj-1" target="CxHsm4b3Uza4CjxpnFzj-2">
+        <mxCell id="925vapRVHT3oOv1AgxMf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CxHsm4b3Uza4CjxpnFzj-1" target="925vapRVHT3oOv1AgxMf-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CxHsm4b3Uza4CjxpnFzj-1" value="锂电池组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        <mxCell id="925vapRVHT3oOv1AgxMf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CxHsm4b3Uza4CjxpnFzj-1" target="925vapRVHT3oOv1AgxMf-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CxHsm4b3Uza4CjxpnFzj-2" value="锂电池组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="CxHsm4b3Uza4CjxpnFzj-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;锂电池组&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;12V&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxHsm4b3Uza4CjxpnFzj-2" value="&lt;font style=&quot;font-size: 24px&quot;&gt;全站仪&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="465" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="925vapRVHT3oOv1AgxMf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="925vapRVHT3oOv1AgxMf-1" target="CxHsm4b3Uza4CjxpnFzj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="925vapRVHT3oOv1AgxMf-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;电源转换器12V转9V&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="190" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="925vapRVHT3oOv1AgxMf-2" value="&lt;font style=&quot;font-size: 24px&quot;&gt;DAS&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="925vapRVHT3oOv1AgxMf-8" value="12V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="925vapRVHT3oOv1AgxMf-9" value="12V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="925vapRVHT3oOv1AgxMf-10" value="9V" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="270" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
