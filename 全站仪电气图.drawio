@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2021-05-07T02:05:25.601Z" agent="5.0 (Windows)" etag="0JPzlO3k5sc1Iz2x-Da8" version="14.6.10" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-07T02:07:04.253Z" agent="5.0 (Windows)" etag="62hg8PYTcwDfkFiAjidF" version="14.6.10" type="github" pages="2">
   <diagram name="锂电池组" id="099fd60b-425b-db50-ffb0-6b813814b670">
     <mxGraphModel dx="1422" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CxHsm4b3Uza4CjxpnFzj-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CxHsm4b3Uza4CjxpnFzj-1" target="CxHsm4b3Uza4CjxpnFzj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CxHsm4b3Uza4CjxpnFzj-1" value="锂电池组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CxHsm4b3Uza4CjxpnFzj-2" value="锂电池组" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
