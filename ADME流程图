@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-30T22:18:14.304Z" agent="5.0 (Windows)" etag="7al4zUJ1elk5RFPBiqAh" version="14.7.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-05-30T22:35:21.750Z" agent="5.0 (Windows)" etag="TimIV6avbxL18o-GQcoy" version="14.7.3" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="起测零点变更流程图">
     <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -216,6 +216,53 @@
         </mxCell>
         <mxCell id="7g9JnXzlfaxW9XfKYHnm-37" value="数据拟合区间h2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="7g9JnXzlfaxW9XfKYHnm-1" vertex="1">
           <mxGeometry x="510" y="240" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2xWQMjBLwfNztJB3FXFF" name="起测零点变更工作流图">
+    <mxGraphModel dx="1550" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-0" />
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-1" parent="fvsDUstj7QbcmpBKHoDs-0" />
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fvsDUstj7QbcmpBKHoDs-1" source="fvsDUstj7QbcmpBKHoDs-2" target="fvsDUstj7QbcmpBKHoDs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="fvsDUstj7QbcmpBKHoDs-1" source="fvsDUstj7QbcmpBKHoDs-2" target="fvsDUstj7QbcmpBKHoDs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-2" value="&lt;div&gt;参数配置保存2h&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fvsDUstj7QbcmpBKHoDs-1">
+          <mxGeometry x="100" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-3" value="测试参数读取设置" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fvsDUstj7QbcmpBKHoDs-1">
+          <mxGeometry x="100" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fvsDUstj7QbcmpBKHoDs-1" source="fvsDUstj7QbcmpBKHoDs-4" target="fvsDUstj7QbcmpBKHoDs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-4" value="&lt;div&gt;测量数据计算修正6h&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fvsDUstj7QbcmpBKHoDs-1">
+          <mxGeometry x="490" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fvsDUstj7QbcmpBKHoDs-1" source="fvsDUstj7QbcmpBKHoDs-5" target="fvsDUstj7QbcmpBKHoDs-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-5" value="&lt;div&gt;计算运行参数4h&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fvsDUstj7QbcmpBKHoDs-1">
+          <mxGeometry x="230" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="fvsDUstj7QbcmpBKHoDs-1" source="fvsDUstj7QbcmpBKHoDs-6" target="fvsDUstj7QbcmpBKHoDs-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-6" value="&lt;div&gt;测试运动和读取传感器原始数据&lt;/div&gt;&lt;div&gt;8h&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fvsDUstj7QbcmpBKHoDs-1">
+          <mxGeometry x="350" y="335" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fvsDUstj7QbcmpBKHoDs-1" source="fvsDUstj7QbcmpBKHoDs-7" target="fvsDUstj7QbcmpBKHoDs-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-7" value="&lt;div&gt;测试数据修正结果和上报数据&lt;/div&gt;&lt;div&gt;8h&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fvsDUstj7QbcmpBKHoDs-1">
+          <mxGeometry x="650" y="340" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fvsDUstj7QbcmpBKHoDs-18" value="&lt;div&gt;开发完成&lt;/div&gt;&lt;div&gt;宿舍测试&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fvsDUstj7QbcmpBKHoDs-1">
+          <mxGeometry x="660" y="480" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
