@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-05-31T08:16:05.845Z" agent="5.0 (Windows)" etag="dXEOOUYplMT6nFNZcQiu" version="14.7.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-06-15T06:22:29.289Z" agent="5.0 (Windows)" etag="y6AMvWtPVNt4rcbuYyHD" version="14.7.8" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="起测零点变更流程图">
-    <mxGraphModel dx="1673" dy="898" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -67,7 +67,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DMbbCr_UF7igmEnzlqoy" name="起测零点变更示意图">
-    <mxGraphModel dx="813" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="7g9JnXzlfaxW9XfKYHnm-0" />
         <mxCell id="7g9JnXzlfaxW9XfKYHnm-1" parent="7g9JnXzlfaxW9XfKYHnm-0" />
@@ -217,13 +217,13 @@
         <mxCell id="7g9JnXzlfaxW9XfKYHnm-37" value="数据拟合区间h2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="7g9JnXzlfaxW9XfKYHnm-1" vertex="1">
           <mxGeometry x="510" y="240" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="7ConAedPQ61iMXuHXo7U-0" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="7g9JnXzlfaxW9XfKYHnm-1">
+        <mxCell id="7ConAedPQ61iMXuHXo7U-0" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="7g9JnXzlfaxW9XfKYHnm-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="298" y="479" as="sourcePoint" />
             <mxPoint x="298" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7ConAedPQ61iMXuHXo7U-1" value="测孔深H" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="7ConAedPQ61iMXuHXo7U-0">
+        <mxCell id="7ConAedPQ61iMXuHXo7U-1" value="测孔深H" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="7ConAedPQ61iMXuHXo7U-0" vertex="1" connectable="0">
           <mxGeometry x="0.1294" y="3" relative="1" as="geometry">
             <mxPoint x="23" y="8" as="offset" />
           </mxGeometry>
@@ -232,7 +232,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2xWQMjBLwfNztJB3FXFF" name="起测零点变更工作流图">
-    <mxGraphModel dx="1422" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="fvsDUstj7QbcmpBKHoDs-0" />
         <mxCell id="fvsDUstj7QbcmpBKHoDs-1" parent="fvsDUstj7QbcmpBKHoDs-0" />
@@ -275,12 +275,20 @@
         <mxCell id="fvsDUstj7QbcmpBKHoDs-18" value="&lt;div&gt;开发完成&lt;/div&gt;&lt;div&gt;宿舍测试&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="fvsDUstj7QbcmpBKHoDs-1" vertex="1">
           <mxGeometry x="660" y="480" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WAnNabff1avuvgtu6J_A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="fvsDUstj7QbcmpBKHoDs-1" source="WAnNabff1avuvgtu6J_A-0" target="fvsDUstj7QbcmpBKHoDs-4">
+        <mxCell id="WAnNabff1avuvgtu6J_A-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="fvsDUstj7QbcmpBKHoDs-1" source="WAnNabff1avuvgtu6J_A-0" target="fvsDUstj7QbcmpBKHoDs-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WAnNabff1avuvgtu6J_A-0" value="&lt;div&gt;经过验证后&lt;/div&gt;&lt;div&gt;拟合算法&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="fvsDUstj7QbcmpBKHoDs-1">
+        <mxCell id="WAnNabff1avuvgtu6J_A-0" value="&lt;div&gt;经过验证后&lt;/div&gt;&lt;div&gt;拟合算法&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="fvsDUstj7QbcmpBKHoDs-1" vertex="1">
           <mxGeometry x="500" y="224" width="80" height="80" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BXIzaKvT5rSY8Hh9ugIT" name="起测零点变更白盒流程图">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-0" />
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-1" parent="CQ4tUjEL9wlmTpJIeye5-0" />
       </root>
     </mxGraphModel>
   </diagram>
