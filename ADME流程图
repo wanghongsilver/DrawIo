@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-15T06:22:29.289Z" agent="5.0 (Windows)" etag="y6AMvWtPVNt4rcbuYyHD" version="14.7.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-16T03:00:37.566Z" agent="5.0 (Windows)" etag="AeM4mUR6gfeWgxyZHcaS" version="14.7.8" type="github" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="起测零点变更流程图">
     <mxGraphModel dx="1422" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -285,10 +285,209 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BXIzaKvT5rSY8Hh9ugIT" name="起测零点变更白盒流程图">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="CQ4tUjEL9wlmTpJIeye5-0" />
         <mxCell id="CQ4tUjEL9wlmTpJIeye5-1" parent="CQ4tUjEL9wlmTpJIeye5-0" />
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-3" target="CQ4tUjEL9wlmTpJIeye5-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-3" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="660" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-4" target="CQ4tUjEL9wlmTpJIeye5-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-4" value="读取设备运行参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="660" y="210" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-10" target="CQ4tUjEL9wlmTpJIeye5-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-10" target="CQ4tUjEL9wlmTpJIeye5-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-10" value="&lt;div&gt;测量周期计数&lt;/div&gt;&lt;div&gt;==0？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="670" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-12" target="CQ4tUjEL9wlmTpJIeye5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-12" value="传感器数据初始化；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="650" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-13" target="CQ4tUjEL9wlmTpJIeye5-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-13" value="&lt;div&gt;根据运行参数获取时间工作表；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="620" y="420" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-14" value="&lt;div&gt;根据运行参数获取时间工作表；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="70" y="100" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-15" value="传感器数据初始化；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-16" target="CQ4tUjEL9wlmTpJIeye5-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-16" value="平台上报测量数据；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="840" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-17" target="CQ4tUjEL9wlmTpJIeye5-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-17" value="&lt;div&gt;测量周期计数 &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt;0？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="860" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-18" value="平台上报测量数据；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="70" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-19" target="CQ4tUjEL9wlmTpJIeye5-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-19" value="根据运行参数进行管口等待；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="815" y="500" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-20" value="&lt;div&gt;设置测量计数=0；&lt;/div&gt;&lt;div&gt;设置传感器修改信道模式；&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="610" y="640" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-32" value="蓝牙传感器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1900" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-34" target="CQ4tUjEL9wlmTpJIeye5-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-34" value="433传感器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="670" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-36" target="CQ4tUjEL9wlmTpJIeye5-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-36" target="CQ4tUjEL9wlmTpJIeye5-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-36" value="设置传感器信道是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="670" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-38" value="读取传感器数据是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1890" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-39" target="CQ4tUjEL9wlmTpJIeye5-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-39" target="CQ4tUjEL9wlmTpJIeye5-69">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="930" y="1010" />
+              <mxPoint x="930" y="1300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-39" value="配置传感器信息是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="973" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-41" target="CQ4tUjEL9wlmTpJIeye5-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-41" target="CQ4tUjEL9wlmTpJIeye5-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-41" value="设置传感器休眠指令是否到4次？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1555" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-42" target="CQ4tUjEL9wlmTpJIeye5-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-42" target="CQ4tUjEL9wlmTpJIeye5-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1427" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-42" value="发送传感器启动测量是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1237" y="970" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-43" value="初始化电机参数；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="650" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-44" value="初始化电机参数；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="260" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-45" target="CQ4tUjEL9wlmTpJIeye5-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-45" target="CQ4tUjEL9wlmTpJIeye5-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-45" value="&lt;div&gt;测量计数&lt;/div&gt;&lt;div&gt;==0？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="973" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-46" target="CQ4tUjEL9wlmTpJIeye5-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-46" value="&lt;div&gt;设置传感器模式&lt;/div&gt;&lt;div&gt;为启动测试；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="953" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-47" target="CQ4tUjEL9wlmTpJIeye5-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-47" value="&lt;div&gt;设置传感器模式&lt;/div&gt;&lt;div&gt;为读取数据；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1083" y="1180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-57" target="CQ4tUjEL9wlmTpJIeye5-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-57" value="设置信道模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="670" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-58" target="CQ4tUjEL9wlmTpJIeye5-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-58" value="启动测量模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1237" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-59" target="CQ4tUjEL9wlmTpJIeye5-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-59" value="休眠模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1555" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-60" value="读取数据模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1890" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-61" target="CQ4tUjEL9wlmTpJIeye5-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-61" value="配置模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="973" y="850" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-68" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="790" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-69" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="953" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-74" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1367" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-75" value="&lt;div&gt;开始时间计数；&lt;/div&gt;&lt;div&gt;设置传感器模式&lt;/div&gt;&lt;div&gt;为休眠模式；&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1217" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-79" value="设置电机下放；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1535" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-80" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1685" y="1090" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-84" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1870" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-86" value="判断CRC是否正确？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="1890" y="1080" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-87" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+          <mxGeometry x="2030" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
