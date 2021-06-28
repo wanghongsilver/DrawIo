@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T03:00:37.566Z" agent="5.0 (Windows)" etag="AeM4mUR6gfeWgxyZHcaS" version="14.7.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-06-28T08:12:08.840Z" agent="5.0 (Windows)" etag="DD21FBE_PKyiC1BYc-I8" version="14.7.8" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="起测零点变更流程图">
     <mxGraphModel dx="1422" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -289,94 +289,94 @@
       <root>
         <mxCell id="CQ4tUjEL9wlmTpJIeye5-0" />
         <mxCell id="CQ4tUjEL9wlmTpJIeye5-1" parent="CQ4tUjEL9wlmTpJIeye5-0" />
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-3" target="CQ4tUjEL9wlmTpJIeye5-4">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-3" target="CQ4tUjEL9wlmTpJIeye5-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-3" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-3" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="660" y="90" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-4" target="CQ4tUjEL9wlmTpJIeye5-10">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-4" target="CQ4tUjEL9wlmTpJIeye5-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-4" value="读取设备运行参数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-4" value="读取设备运行参数" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="660" y="210" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-10" target="CQ4tUjEL9wlmTpJIeye5-13">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-10" target="CQ4tUjEL9wlmTpJIeye5-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-10" target="CQ4tUjEL9wlmTpJIeye5-17">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-10" target="CQ4tUjEL9wlmTpJIeye5-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-10" value="&lt;div&gt;测量周期计数&lt;/div&gt;&lt;div&gt;==0？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-10" value="&lt;div&gt;测量周期计数&lt;/div&gt;&lt;div&gt;==0？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="670" y="290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-12" target="CQ4tUjEL9wlmTpJIeye5-20">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-12" target="CQ4tUjEL9wlmTpJIeye5-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-12" value="传感器数据初始化；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-12" value="传感器数据初始化；" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="650" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-13" target="CQ4tUjEL9wlmTpJIeye5-12">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-13" target="CQ4tUjEL9wlmTpJIeye5-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-13" value="&lt;div&gt;根据运行参数获取时间工作表；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-13" value="&lt;div&gt;根据运行参数获取时间工作表；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="620" y="420" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-14" value="&lt;div&gt;根据运行参数获取时间工作表；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-14" value="&lt;div&gt;根据运行参数获取时间工作表；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="70" y="100" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-15" value="传感器数据初始化；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-15" value="传感器数据初始化；" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="310" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-16" target="CQ4tUjEL9wlmTpJIeye5-19">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-16" target="CQ4tUjEL9wlmTpJIeye5-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-16" value="平台上报测量数据；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-16" value="平台上报测量数据；" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="840" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-17" target="CQ4tUjEL9wlmTpJIeye5-16">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-17" target="CQ4tUjEL9wlmTpJIeye5-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-17" value="&lt;div&gt;测量周期计数 &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt;0？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-17" value="&lt;div&gt;测量周期计数 &lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;gt;0？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="860" y="290" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-18" value="平台上报测量数据；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-18" value="平台上报测量数据；" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="70" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-19" target="CQ4tUjEL9wlmTpJIeye5-20">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-19" target="CQ4tUjEL9wlmTpJIeye5-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-19" value="根据运行参数进行管口等待；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-19" value="根据运行参数进行管口等待；" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="815" y="500" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-20" value="&lt;div&gt;设置测量计数=0；&lt;/div&gt;&lt;div&gt;设置传感器修改信道模式；&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-20" value="&lt;div&gt;设置测量计数=0；&lt;/div&gt;&lt;div&gt;设置传感器修改信道模式；&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="610" y="640" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-32" value="蓝牙传感器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-32" value="蓝牙传感器" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1900" y="540" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-34" target="CQ4tUjEL9wlmTpJIeye5-57">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-34" target="CQ4tUjEL9wlmTpJIeye5-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-34" value="433传感器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-34" value="433传感器" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="670" y="740" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-36" target="CQ4tUjEL9wlmTpJIeye5-43">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-36" target="CQ4tUjEL9wlmTpJIeye5-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-36" target="CQ4tUjEL9wlmTpJIeye5-68">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-36" target="CQ4tUjEL9wlmTpJIeye5-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-36" value="设置传感器信道是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-36" value="设置传感器信道是否成功？" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="670" y="970" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-38" value="读取传感器数据是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-38" value="读取传感器数据是否成功？" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1890" y="970" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-39" target="CQ4tUjEL9wlmTpJIeye5-45">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-39" target="CQ4tUjEL9wlmTpJIeye5-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-39" target="CQ4tUjEL9wlmTpJIeye5-69">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-39" target="CQ4tUjEL9wlmTpJIeye5-69" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="930" y="1010" />
@@ -384,109 +384,757 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-39" value="配置传感器信息是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-39" value="配置传感器信息是否成功？" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="973" y="970" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-41" target="CQ4tUjEL9wlmTpJIeye5-79">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-41" target="CQ4tUjEL9wlmTpJIeye5-79" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-41" target="CQ4tUjEL9wlmTpJIeye5-80">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-41" target="CQ4tUjEL9wlmTpJIeye5-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-41" value="设置传感器休眠指令是否到4次？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-41" value="设置传感器休眠指令是否到4次？" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1555" y="970" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-42" target="CQ4tUjEL9wlmTpJIeye5-75">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-42" target="CQ4tUjEL9wlmTpJIeye5-75" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-42" target="CQ4tUjEL9wlmTpJIeye5-74">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-42" target="CQ4tUjEL9wlmTpJIeye5-74" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1427" y="1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-42" value="发送传感器启动测量是否成功？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-42" value="发送传感器启动测量是否成功？" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1237" y="970" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-43" value="初始化电机参数；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-43" value="初始化电机参数；" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="650" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-44" value="初始化电机参数；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-44" value="初始化电机参数；" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="260" y="210" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-45" target="CQ4tUjEL9wlmTpJIeye5-46">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-45" target="CQ4tUjEL9wlmTpJIeye5-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-45" target="CQ4tUjEL9wlmTpJIeye5-47">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-45" target="CQ4tUjEL9wlmTpJIeye5-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-45" value="&lt;div&gt;测量计数&lt;/div&gt;&lt;div&gt;==0？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-45" value="&lt;div&gt;测量计数&lt;/div&gt;&lt;div&gt;==0？&lt;br&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="973" y="1080" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-46" target="CQ4tUjEL9wlmTpJIeye5-69">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-46" target="CQ4tUjEL9wlmTpJIeye5-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-46" value="&lt;div&gt;设置传感器模式&lt;/div&gt;&lt;div&gt;为启动测试；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-46" value="&lt;div&gt;设置传感器模式&lt;/div&gt;&lt;div&gt;为启动测试；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="953" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-47" target="CQ4tUjEL9wlmTpJIeye5-69">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-47" target="CQ4tUjEL9wlmTpJIeye5-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-47" value="&lt;div&gt;设置传感器模式&lt;/div&gt;&lt;div&gt;为读取数据；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-47" value="&lt;div&gt;设置传感器模式&lt;/div&gt;&lt;div&gt;为读取数据；&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1083" y="1180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-57" target="CQ4tUjEL9wlmTpJIeye5-36">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-57" target="CQ4tUjEL9wlmTpJIeye5-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-57" value="设置信道模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-57" value="设置信道模式" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="670" y="850" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-58" target="CQ4tUjEL9wlmTpJIeye5-42">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-58" target="CQ4tUjEL9wlmTpJIeye5-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-58" value="启动测量模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-58" value="启动测量模式" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1237" y="850" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-59" target="CQ4tUjEL9wlmTpJIeye5-41">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-59" target="CQ4tUjEL9wlmTpJIeye5-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-59" value="休眠模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-59" value="休眠模式" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1555" y="850" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-60" value="读取数据模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-60" value="读取数据模式" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1890" y="850" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-61" target="CQ4tUjEL9wlmTpJIeye5-39">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="CQ4tUjEL9wlmTpJIeye5-1" source="CQ4tUjEL9wlmTpJIeye5-61" target="CQ4tUjEL9wlmTpJIeye5-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-61" value="配置模式" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-61" value="配置模式" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="973" y="850" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-68" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-68" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="790" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-69" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-69" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="953" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-74" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-74" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1367" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-75" value="&lt;div&gt;开始时间计数；&lt;/div&gt;&lt;div&gt;设置传感器模式&lt;/div&gt;&lt;div&gt;为休眠模式；&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-75" value="&lt;div&gt;开始时间计数；&lt;/div&gt;&lt;div&gt;设置传感器模式&lt;/div&gt;&lt;div&gt;为休眠模式；&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1217" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-79" value="设置电机下放；" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-79" value="设置电机下放；" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1535" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-80" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-80" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1685" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-84" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-84" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1870" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-86" value="判断CRC是否正确？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-86" value="判断CRC是否正确？" style="rhombus;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="1890" y="1080" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CQ4tUjEL9wlmTpJIeye5-87" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="CQ4tUjEL9wlmTpJIeye5-1">
+        <mxCell id="CQ4tUjEL9wlmTpJIeye5-87" value="传感器状态轮训" style="rounded=1;whiteSpace=wrap;html=1;" parent="CQ4tUjEL9wlmTpJIeye5-1" vertex="1">
           <mxGeometry x="2030" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Yqq0ZcOoGXtUis0jweIu" name="V4.2.2ADME-正反测兼单项测量低功耗逻辑概要 (1)">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-0" />
+        <mxCell id="0XZrBnazLewg7Fcc71L_-1" parent="0XZrBnazLewg7Fcc71L_-0" />
+        <mxCell id="0XZrBnazLewg7Fcc71L_-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-6" target="0XZrBnazLewg7Fcc71L_-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-6" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;执行机构系统上电，控制中心（&lt;/font&gt;CTR&lt;font style=&quot;font-size: 12px&quot;&gt;）会进行初始化&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="570.02" y="370" width="279.99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-9" target="0XZrBnazLewg7Fcc71L_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970.28" y="676.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="916.2" y="624" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-9" target="0XZrBnazLewg7Fcc71L_-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-9" value="&lt;font style=&quot;font-size: 11px&quot;&gt;判断磁开关&lt;/font&gt;（垂直方向的行程开关）是否触发" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="560.86" y="588" width="297.08" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="708.2" y="735" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="915.2" y="736" />
+              <mxPoint x="712.2" y="736" />
+              <mxPoint x="712.2" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-11" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;text-align: center&quot;&gt;CTR生成上拉指令发送给力矩电机驱动器，力矩电机驱动器根据运动指令控制力矩电机上拉，直到触发磁开关。&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="836.2" y="646" width="158.3" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-13" target="0XZrBnazLewg7Fcc71L_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-13" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;CTR和传感器进行配对，同时进行时间表同步，开始正向测量逻辑工作。&lt;/font&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; ; font-size: 12pt&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="514.51" y="989" width="390" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-15" target="0XZrBnazLewg7Fcc71L_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-15" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span&gt;CTR根据设置参数生成电机下放指令&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="529.4100000000001" y="1052" width="360" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-17" target="0XZrBnazLewg7Fcc71L_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-17" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;CTR向力矩电机驱动器发送力矩电机下放指令，&lt;/font&gt;&lt;/span&gt;&lt;span&gt;力矩电机驱动器根据运动指令控制力矩电机运动到设定位置&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="498.55000000000007" y="1121" width="422.92" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-19" target="0XZrBnazLewg7Fcc71L_-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-19" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;经过&lt;/font&gt;T1&lt;font style=&quot;font-size: 12px&quot;&gt;（10min等待间隔）后，传感器开始进行数据采集并将测量数据存储在采集器中，持续采集时间为&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;T2(10s&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;解算时间）&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="521.4100000000001" y="1188" width="376" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-21" target="0XZrBnazLewg7Fcc71L_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-21" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;T2(10s解算时间）+5秒测量补偿时间&lt;font style=&quot;font-size: 12px&quot;&gt;结束后控制中心根据设置参数生成电机上拉指令&lt;/font&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; ; font-size: 12pt&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="511.9100000000001" y="1247" width="395" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-23" target="0XZrBnazLewg7Fcc71L_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-23" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;控制中心向主电机驱动器发送电机上拉指令，电机足够的运动时间为&lt;/font&gt;T3（30s)&lt;span&gt;（给传感器补偿前后各约5s时间）&lt;/span&gt;&lt;span&gt;电机驱动器根据上拉运动指令控制电机反转运动到设定位置（500mm)。&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="512.01" y="1304" width="395" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-26" target="0XZrBnazLewg7Fcc71L_-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="969.5" y="1093" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="1414" />
+              <mxPoint x="940" y="1329" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-26" target="0XZrBnazLewg7Fcc71L_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-26" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;line-height: 90%&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;测量点数是否小于所设置&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;line-height: 90%&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;的测量&lt;/font&gt;点数&lt;/font&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="589.5" y="1379" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-28" target="0XZrBnazLewg7Fcc71L_-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-28" value="&lt;font style=&quot;font-size: 12px&quot;&gt;传感器触发磁开关，&lt;span&gt;CTR与传感器配对，并将正向测量数据从传感器读出，存储在CTR中&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="574.5" y="1497" width="270" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-30" target="0XZrBnazLewg7Fcc71L_-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-30" value="&lt;div&gt;&lt;span&gt;存储完成后，&lt;/span&gt;&lt;span&gt;CTR与42步进电机驱动器通讯，42步进电机驱动器&lt;/span&gt;&lt;font&gt;控制&lt;/font&gt;&lt;font&gt;42步进&lt;/font&gt;&lt;font&gt;电机反转带动正反测装置顺时针旋转&lt;/font&gt;&lt;font&gt;180°&lt;/font&gt;&lt;span&gt;。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="557.8799999999999" y="1593" width="303.07" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-32" target="0XZrBnazLewg7Fcc71L_-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-32" value="&lt;p class=&quot;MsoNormal&quot;&gt;CTR和传感器配对成功后，&lt;span&gt;控制器根据设置参数生成电机下放指令&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1073" y="868" width="270" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-34" target="0XZrBnazLewg7Fcc71L_-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-34" value="&lt;p class=&quot;MsoNormal&quot;&gt;控制器向电机驱动器发送电机下放指令，&lt;span&gt;电机驱动器根据运动指令控制电机运动到设定位置&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1073" y="951" width="270" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-36" target="0XZrBnazLewg7Fcc71L_-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-36" value="&lt;p class=&quot;MsoNormal&quot;&gt;经过T1（10min等待间隔）后，传感器开始进行数据采集，持续采集时间为T2(10s解算时间）&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1073" y="1030" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-38" target="0XZrBnazLewg7Fcc71L_-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-38" value="&lt;p class=&quot;MsoNormal&quot;&gt;T2(10s解算时间）+5秒测量补偿时间时间结束后，控制中心根据设置参数生成电机上拉指令&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1073" y="1099" width="270" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-40" target="0XZrBnazLewg7Fcc71L_-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-40" value="&lt;p class=&quot;MsoNormal&quot;&gt;控制中心向电机驱动器发送电机上拉指令，电机足够的运动时间为T3（30s)（给传感器补偿前后各约5s时间）电机驱动器根据上拉运动指令控制电机反转运动到设定位置（500mm)。&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1073" y="1174" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-41" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="864.51" y="601" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-42" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="602.2" y="663" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-43" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="857.51" y="1388" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-44" value="&lt;font style=&quot;font-size: 12px&quot;&gt;否&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="667" y="1458" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-47" target="0XZrBnazLewg7Fcc71L_-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-47" target="0XZrBnazLewg7Fcc71L_-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1468" y="1179.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1396" y="1313" />
+              <mxPoint x="1396" y="1216" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-47" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;line-height: 90%&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;测量点数是否小于所设置&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;line-height: 90%&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;的测量&lt;/font&gt;点数&lt;/font&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1088" y="1278" width="240" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-49" target="0XZrBnazLewg7Fcc71L_-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-49" value="&lt;font style=&quot;font-size: 12px&quot;&gt;传感器触发磁开关，继电器上电切断力矩电机和步进驱动器供电，&lt;span&gt;CTR与传感器配对，并将反向测量数据从传感器读出，存储在CTR中&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1083" y="1380" width="250" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-51" target="0XZrBnazLewg7Fcc71L_-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-51" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;最终&lt;/font&gt;CTR&lt;font style=&quot;font-size: 12px&quot;&gt;将“正向测量”和“反向测量”原始数据拟合为一组原始数据通过&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;4G&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;上传至云平台。但日志上可显正向测量原始数值、反向测量原始数值和正向测量与反向测量拟合为一组的原始数值&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1077.5" y="1603" width="261" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="709" y="435" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1208" y="1903" />
+              <mxPoint x="470" y="1903" />
+              <mxPoint x="470" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-53" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;CTR&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;经过设备的&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;T4&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;时间（T4可以是0到24小时之间）等待后继电器断电，恢复力矩电机和步进驱动器供电&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;，开始下一轮的正反测量。&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1063" y="1787" width="290" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-54" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1333" y="1286" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-55" value="&lt;font style=&quot;font-size: 12px&quot;&gt;否&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1165" y="1353" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-58" target="0XZrBnazLewg7Fcc71L_-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="709.5050000000001" y="789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-58" target="0XZrBnazLewg7Fcc71L_-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1071.5749999999998" y="666.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="921.2" y="827" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-58" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;判断管口正反测装置水平零位&lt;/span&gt;行程开关&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;（水平方向的，正反测装置零位开关）是否触发&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="541.6700000000001" y="774" width="335.48" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="712" y="964" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="964" />
+              <mxPoint x="712" y="964" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-60" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;CTR生成旋转指令，发送给给42电机驱动器，42电机驱动器驱动42电机正传，带动回转轴承逆时针旋转，使得正反测装置归零。&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="841" y="863" width="158.5" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-61" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="873" y="804" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-62" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="669" y="933" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-64" target="0XZrBnazLewg7Fcc71L_-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-64" value="&lt;font style=&quot;text-align: justify&quot;&gt;CTR&lt;/font&gt;&lt;span style=&quot;text-align: justify&quot;&gt;和传感器进行配对，同时进行时间表同步，开始反向测量逻辑工作。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1074" y="793" width="268" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-67" target="0XZrBnazLewg7Fcc71L_-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1069.695" y="1466.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="917.26" y="1724" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-67" target="0XZrBnazLewg7Fcc71L_-64">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="708" y="1864" />
+              <mxPoint x="1046" y="1864" />
+              <mxPoint x="1046" y="773" />
+              <mxPoint x="1208" y="773" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-67" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;判断磁开关&lt;/font&gt;（垂直方向的行程开关）是否触发&lt;br&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="564.1400000000001" y="1680" width="290.54" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="704.26" y="1831" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="917.26" y="1831" />
+              <mxPoint x="706.26" y="1831" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-69" value="&lt;p class=&quot;MsoNormal&quot;&gt;CTR生成上拉指令发送给力矩电机驱动器，力矩电机驱动器根据运动指令控制力矩电机上拉，直到触发磁开关。&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="838.2600000000002" y="1755" width="158.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-70" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="859.0699999999999" y="1702" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-71" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="664.26" y="1791" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-74" target="0XZrBnazLewg7Fcc71L_-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="710.2" y="555" />
+              <mxPoint x="710.2" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710.2" y="1665" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1017.2" y="497" />
+              <mxPoint x="1017.2" y="1665" />
+              <mxPoint x="710.2" y="1665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-74" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;判断正反测功能是否开启&lt;/span&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="552.21" y="465" width="315.59" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-75" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="873" y="471" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-76" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="668.6700000000001" y="541" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-79" target="0XZrBnazLewg7Fcc71L_-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-79" target="0XZrBnazLewg7Fcc71L_-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-79" value="判断是否为正反测测量模式" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1096" y="1467" width="224" height="79.5" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0XZrBnazLewg7Fcc71L_-1" source="0XZrBnazLewg7Fcc71L_-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1209" y="1716" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1402" y="1716" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-81" value="&lt;font&gt;最终&lt;/font&gt;&lt;span&gt;CTR&lt;/span&gt;&lt;font&gt;将“反向测量”原始数据通过&lt;/font&gt;&lt;font&gt;4G&lt;/font&gt;&lt;font&gt;上传至云平台。&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1342" y="1603" width="120" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-82" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1167" y="1560" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="0XZrBnazLewg7Fcc71L_-83" value="&lt;font style=&quot;font-size: 12px&quot;&gt;否&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="0XZrBnazLewg7Fcc71L_-1">
+          <mxGeometry x="1328" y="1484" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="af3vZyXI-uZ3DkiTb46C" name="V4.2.2ADME-正反测兼单项测量低功耗逻辑概要 (2)">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-0" />
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-1" parent="LpZeFug1AXeAxYFqBz5e-0" />
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-3" target="LpZeFug1AXeAxYFqBz5e-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-3" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;执行机构系统上电，控制中心（&lt;/font&gt;CTR&lt;font style=&quot;font-size: 12px&quot;&gt;）会进行初始化&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="520.02" y="310" width="279.99" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-6" target="LpZeFug1AXeAxYFqBz5e-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920.28" y="616.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="866.2" y="564" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-6" target="LpZeFug1AXeAxYFqBz5e-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-6" value="&lt;font style=&quot;font-size: 11px&quot;&gt;判断磁开关&lt;/font&gt;（垂直方向的行程开关）是否触发" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="510.86" y="528" width="297.08" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="658.2" y="675" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="865.2" y="676" />
+              <mxPoint x="662.2" y="676" />
+              <mxPoint x="662.2" y="675" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-8" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;text-align: center&quot;&gt;CTR生成上拉指令发送给力矩电机驱动器，力矩电机驱动器根据运动指令控制力矩电机上拉，直到触发磁开关。&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="786.2" y="586" width="158.3" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-10" target="LpZeFug1AXeAxYFqBz5e-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-10" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;继电器上电，常闭触点断开，切断力矩电机和步进电机驱动器供电。CTR和传感器进行配对，同时进行时间表同步，开始正向测量逻辑工作。&lt;/font&gt;&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; ; font-size: 12pt&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="464.51" y="929" width="390" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-12" target="LpZeFug1AXeAxYFqBz5e-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-12" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span&gt;CTR&lt;font style=&quot;font-size: 12px&quot;&gt;和传感器配对成功后&lt;/font&gt;&lt;/span&gt;&lt;span&gt;继电器断电，常闭触点闭合，恢复力矩电机和步进驱动器供电，&lt;/span&gt;&lt;span&gt;CTR根据设置参数生成电机下放指令&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="479.4100000000001" y="992" width="360" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-14" target="LpZeFug1AXeAxYFqBz5e-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-14" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 12pt&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;CTR向力矩电机驱动器发送力矩电机下放指令，&lt;/font&gt;&lt;/span&gt;&lt;span&gt;力矩电机驱动器根据运动指令控制力矩电机运动到设定位置，然后继电器上电切断力矩电机与步进驱动器供电&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="448.55000000000007" y="1061" width="422.92" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-16" target="LpZeFug1AXeAxYFqBz5e-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-16" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;经过&lt;/font&gt;T1&lt;font style=&quot;font-size: 12px&quot;&gt;（10min等待间隔）后，传感器开始进行数据采集并将测量数据存储在采集器中，持续采集时间为&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;T2(10s&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;解算时间）&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="471.4100000000001" y="1128" width="376" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-18" target="LpZeFug1AXeAxYFqBz5e-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-18" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot;&gt;T2(10s解算时间）+5秒测量补偿时间&lt;font style=&quot;font-size: 12px&quot;&gt;结束后，继电器断电，恢复力矩电机和步进驱动器供电，控制中心根据设置参数生成电机上拉指令&lt;/font&gt;&lt;b&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; ; font-size: 12pt&quot;&gt;&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="461.9100000000001" y="1187" width="395" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-20" target="LpZeFug1AXeAxYFqBz5e-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-20" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;控制中心向主电机驱动器发送电机上拉指令，电机足够的运动时间为&lt;/font&gt;T3（30s)&lt;span&gt;（给传感器补偿前后各约5s时间）&lt;/span&gt;&lt;span&gt;电机驱动器根据上拉运动指令控制电机反转运动到设定位置（500mm)。&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="462.01" y="1244" width="395" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-23" target="LpZeFug1AXeAxYFqBz5e-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="919.5" y="1033" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="890" y="1354" />
+              <mxPoint x="890" y="1269" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-23" target="LpZeFug1AXeAxYFqBz5e-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-23" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;line-height: 90%&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;测量点数是否小于所设置&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;line-height: 90%&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;的测量&lt;/font&gt;点数&lt;/font&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="539.5" y="1319" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-25" target="LpZeFug1AXeAxYFqBz5e-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-25" value="&lt;font style=&quot;font-size: 12px&quot;&gt;传感器触发磁开关，继电器上电，切断力矩电机与步进驱动器供电，&lt;span&gt;CTR与传感器配对，并将正向测量数据从传感器读出，存储在CTR中&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="524.5" y="1437" width="270" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-27" target="LpZeFug1AXeAxYFqBz5e-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-27" value="&lt;div&gt;&lt;span&gt;存储完成后，继电器断电，恢复力矩电机和步进驱动器供电，&lt;/span&gt;&lt;span&gt;CTR与42步进电机驱动器通讯，42步进电机驱动器&lt;/span&gt;&lt;font&gt;控制&lt;/font&gt;&lt;font&gt;42步进&lt;/font&gt;&lt;font&gt;电机反转带动正反测装置顺时针旋转&lt;/font&gt;&lt;font&gt;180°&lt;/font&gt;&lt;span&gt;。&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="507.8799999999999" y="1533" width="303.07" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-29" target="LpZeFug1AXeAxYFqBz5e-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-29" value="&lt;p class=&quot;MsoNormal&quot;&gt;CTR和传感器配对成功后&lt;span&gt;继电器断电恢复力矩电机和步进驱动器供电&lt;/span&gt;&lt;span&gt;，控制器根据设置参数生成电机下放指令&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1023" y="808" width="270" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-31" target="LpZeFug1AXeAxYFqBz5e-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-31" value="&lt;p class=&quot;MsoNormal&quot;&gt;控制器向电机驱动器发送电机下放指令，&lt;span&gt;电机驱动器根据运动指令控制电机运动到设定位置，继电器上电，切断力矩电机和步进驱动器供电&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1023" y="891" width="270" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-33" target="LpZeFug1AXeAxYFqBz5e-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-33" value="&lt;p class=&quot;MsoNormal&quot;&gt;经过T1（10min等待间隔）后，传感器开始进行数据采集，持续采集时间为T2(10s解算时间）&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1023" y="970" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-35" target="LpZeFug1AXeAxYFqBz5e-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-35" value="&lt;p class=&quot;MsoNormal&quot;&gt;T2(10s解算时间）+5秒测量补偿时间时间结束后继电器断电，恢复力矩电机和步进驱动器供电，控制中心根据设置参数生成电机上拉指令&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1023" y="1039" width="270" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-37" target="LpZeFug1AXeAxYFqBz5e-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-37" value="&lt;p class=&quot;MsoNormal&quot;&gt;控制中心向电机驱动器发送电机上拉指令，电机足够的运动时间为T3（30s)（给传感器补偿前后各约5s时间）电机驱动器根据上拉运动指令控制电机反转运动到设定位置（500mm)。&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1023" y="1114" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-38" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="814.51" y="541" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-39" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="552.2" y="603" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-40" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="807.51" y="1328" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-41" value="&lt;font style=&quot;font-size: 12px&quot;&gt;否&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="617" y="1398" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-44" target="LpZeFug1AXeAxYFqBz5e-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.996;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-44" target="LpZeFug1AXeAxYFqBz5e-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1418" y="1119.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1346" y="1253" />
+              <mxPoint x="1346" y="1156" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-44" value="&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;line-height: 90%&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;测量点数是否小于所设置&lt;/font&gt;&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot; align=&quot;center&quot; style=&quot;line-height: 90%&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;的测量&lt;/font&gt;点数&lt;/font&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1038" y="1218" width="240" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-46" target="LpZeFug1AXeAxYFqBz5e-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-46" value="&lt;font style=&quot;font-size: 12px&quot;&gt;传感器触发磁开关，继电器上电切断力矩电机和步进驱动器供电，&lt;span&gt;CTR与传感器配对，并将反向测量数据从传感器读出，存储在CTR中&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1033" y="1320" width="250" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-48" target="LpZeFug1AXeAxYFqBz5e-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-48" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;最终&lt;/font&gt;CTR&lt;font style=&quot;font-size: 12px&quot;&gt;将“正向测量”和“反向测量”原始数据拟合为一组原始数据通过&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;4G&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;上传至云平台。但日志上可显正向测量原始数值、反向测量原始数值和正向测量与反向测量拟合为一组的原始数值&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1027.5" y="1543" width="261" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659" y="375" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1158" y="1843" />
+              <mxPoint x="420" y="1843" />
+              <mxPoint x="420" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-50" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;CTR&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;经过设备的&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;T4&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;时间（T4可以是0到24小时之间）等待后继电器断电，恢复力矩电机和步进驱动器供电&lt;/font&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;，开始下一轮的正反测量。&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1013" y="1727" width="290" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-51" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1283" y="1226" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-52" value="&lt;font style=&quot;font-size: 12px&quot;&gt;否&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1115" y="1293" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-55" target="LpZeFug1AXeAxYFqBz5e-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="659.5050000000001" y="729" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-55" target="LpZeFug1AXeAxYFqBz5e-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1021.5749999999998" y="606.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="871.2" y="767" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-55" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;判断管口正反测装置水平零位&lt;/span&gt;行程开关&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;span style=&quot;font-size: 12px&quot;&gt;（水平方向的，正反测装置零位开关）是否触发&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="491.6700000000001" y="714" width="335.48" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="662" y="904" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="870" y="904" />
+              <mxPoint x="662" y="904" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-57" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;CTR生成旋转指令，发送给给42电机驱动器，42电机驱动器驱动42电机正传，带动回转轴承逆时针旋转，使得正反测装置归零。&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="791" y="803" width="158.5" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-58" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="823" y="744" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-59" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="619" y="873" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-61" target="LpZeFug1AXeAxYFqBz5e-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-61" value="继电器上电，常闭触点断开，切断力矩电机和步进电机驱动器供电。&lt;font style=&quot;text-align: justify&quot;&gt;CTR&lt;/font&gt;&lt;span style=&quot;text-align: justify&quot;&gt;和传感器进行配对，同时进行时间表同步，开始反向测量逻辑工作。&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1024" y="733" width="268" height="47.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-64" target="LpZeFug1AXeAxYFqBz5e-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1019.6949999999999" y="1406.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="867.26" y="1664" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-64" target="LpZeFug1AXeAxYFqBz5e-61">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="658" y="1804" />
+              <mxPoint x="996" y="1804" />
+              <mxPoint x="996" y="713" />
+              <mxPoint x="1158" y="713" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-64" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;判断磁开关&lt;/font&gt;（垂直方向的行程开关）是否触发&lt;br&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="514.1400000000001" y="1620" width="290.54" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="654.26" y="1771" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="867.26" y="1771" />
+              <mxPoint x="656.26" y="1771" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-66" value="&lt;p class=&quot;MsoNormal&quot;&gt;CTR生成上拉指令发送给力矩电机驱动器，力矩电机驱动器根据运动指令控制力矩电机上拉，直到触发磁开关。&lt;br&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="788.2600000000002" y="1695" width="158.5" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-67" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="809.0699999999999" y="1642" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-68" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="614.26" y="1731" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-71" target="LpZeFug1AXeAxYFqBz5e-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660.2" y="495" />
+              <mxPoint x="660.2" y="495" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660.2" y="1605" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="967.2" y="437" />
+              <mxPoint x="967.2" y="1605" />
+              <mxPoint x="660.2" y="1605" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-71" value="&lt;p class=&quot;MsoNormal&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;判断正反测功能是否开启&lt;/span&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="502.21000000000004" y="405" width="315.59" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-72" value="否" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="823" y="411" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-73" value="是" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="618.6700000000001" y="481" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-76" target="LpZeFug1AXeAxYFqBz5e-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-76" target="LpZeFug1AXeAxYFqBz5e-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-76" value="判断是否为正反测测量模式" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1046" y="1407" width="224" height="79.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="LpZeFug1AXeAxYFqBz5e-1" source="LpZeFug1AXeAxYFqBz5e-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1159" y="1656" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1352" y="1656" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-78" value="&lt;font&gt;最终&lt;/font&gt;&lt;span&gt;CTR&lt;/span&gt;&lt;font&gt;将“反向测量”原始数据通过&lt;/font&gt;&lt;font&gt;4G&lt;/font&gt;&lt;font&gt;上传至云平台。&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1292" y="1543" width="120" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-79" value="&lt;font style=&quot;font-size: 12px&quot;&gt;是&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1117" y="1500" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LpZeFug1AXeAxYFqBz5e-80" value="&lt;font style=&quot;font-size: 12px&quot;&gt;否&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="LpZeFug1AXeAxYFqBz5e-1">
+          <mxGeometry x="1278" y="1424" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
