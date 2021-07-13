@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T01:50:50.490Z" agent="5.0 (Windows)" etag="RGIkK5KPT1MyK8HZ2xAx" version="14.8.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-07-13T02:56:09.933Z" agent="5.0 (Windows)" etag="3t7pJtImLovvDUcI0NFc" version="14.8.4" type="github" pages="9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="起测零点变更流程图">
     <mxGraphModel dx="1422" dy="752" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1577,6 +1577,172 @@
         </mxCell>
         <mxCell id="IRztP576jrOVWi-pmQBd-30" value="&lt;div&gt;BLE&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="IRztP576jrOVWi-pmQBd-1">
           <mxGeometry x="370" y="225" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="e9l0xsswcbWfgY6Jj3Lw" name="继电器低功耗逻辑控制图">
+    <mxGraphModel dx="2370" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-0" />
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-1" parent="XjpnCFR6X1ELHHHrVcZN-0" />
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-2" target="XjpnCFR6X1ELHHHrVcZN-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-2" value="&lt;div&gt;开始；&lt;/div&gt;&lt;div&gt;初始化设备参数；&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="560" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-4" target="XjpnCFR6X1ELHHHrVcZN-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="620" y="370" />
+              <mxPoint x="620" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-39" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XjpnCFR6X1ELHHHrVcZN-32">
+          <mxGeometry x="0.1592" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-4" target="XjpnCFR6X1ELHHHrVcZN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-4" value="设备配置模式？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="580" y="260" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-5" target="XjpnCFR6X1ELHHHrVcZN-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-5" value="执行关闭电机系统功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="560" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-6" value="执行开启电机系统功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="750" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-7" target="XjpnCFR6X1ELHHHrVcZN-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="600" />
+              <mxPoint x="720" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-23" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XjpnCFR6X1ELHHHrVcZN-16">
+          <mxGeometry x="0.1968" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-7" target="XjpnCFR6X1ELHHHrVcZN-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-7" value="电机是否需要运动？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="580" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="600" />
+              <mxPoint x="940" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-9" value="执行开启电机系统功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="750" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-12" target="XjpnCFR6X1ELHHHrVcZN-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XjpnCFR6X1ELHHHrVcZN-17">
+          <mxGeometry x="0.273" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-12" target="XjpnCFR6X1ELHHHrVcZN-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-12" value="是否需要检查磁开关状态？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="580" y="690" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-13" value="执行开启电机系统功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="750" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-14" target="XjpnCFR6X1ELHHHrVcZN-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-25" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XjpnCFR6X1ELHHHrVcZN-18">
+          <mxGeometry x="0.2476" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-14" target="XjpnCFR6X1ELHHHrVcZN-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-14" value="是否开始查找传感器？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="580" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-15" value="执行关闭电机系统功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="750" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-20" target="XjpnCFR6X1ELHHHrVcZN-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-26" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XjpnCFR6X1ELHHHrVcZN-19">
+          <mxGeometry x="0.3365" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-20" target="XjpnCFR6X1ELHHHrVcZN-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-20" value="是否开始读取传感器？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="580" y="960" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-21" value="执行关闭电机系统功能" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="750" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-29" target="XjpnCFR6X1ELHHHrVcZN-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-28" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XjpnCFR6X1ELHHHrVcZN-27">
+          <mxGeometry x="0.3365" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-29" value="是否出现系统停机故障？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="580" y="1090" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="XjpnCFR6X1ELHHHrVcZN-1" source="XjpnCFR6X1ELHHHrVcZN-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="999.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XjpnCFR6X1ELHHHrVcZN-30" value="&lt;div&gt;执行关闭电机系统功能&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="XjpnCFR6X1ELHHHrVcZN-1">
+          <mxGeometry x="750" y="1100" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
