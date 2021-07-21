@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T02:45:55.729Z" agent="5.0 (Windows)" etag="EIkm4uEns8Yuv_i1ztxW" version="14.8.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-07-21T02:56:35.311Z" agent="5.0 (Windows)" etag="2XdvbOjs9F6QlTOEiGXt" version="14.8.4" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="传感器接入开发流程">
     <mxGraphModel dx="1673" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -314,14 +314,6 @@
         <mxCell id="CL5PBk2P88vKsmWhhsDY-46" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" parent="CL5PBk2P88vKsmWhhsDY-1" vertex="1">
           <mxGeometry x="985" y="740" width="30" height="20" as="geometry" />
         </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="GuAiifUiuSbYC9oV3Yzl" name="传感器接入框架">
-    <mxGraphModel dx="7110" dy="3760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
-      <root>
-        <mxCell id="PJ9I7BN_0ZYQh7HzrG7_-0" />
-        <mxCell id="PJ9I7BN_0ZYQh7HzrG7_-1" parent="PJ9I7BN_0ZYQh7HzrG7_-0" />
       </root>
     </mxGraphModel>
   </diagram>
