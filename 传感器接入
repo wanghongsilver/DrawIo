@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-21T02:34:09.813Z" agent="5.0 (Windows)" etag="VKXpd8gS9kFCs-ArmIrY" version="14.8.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-07-21T02:42:09.609Z" agent="5.0 (Windows)" etag="kyCYnzpEiHtUt2MY_Pvu" version="14.8.4" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="传感器接入开发流程">
     <mxGraphModel dx="1673" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -102,7 +102,7 @@
         <mxCell id="opS0Q5YLN_Wq9L0eivw5-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="opS0Q5YLN_Wq9L0eivw5-63" target="opS0Q5YLN_Wq9L0eivw5-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="opS0Q5YLN_Wq9L0eivw5-63" value="&lt;div&gt;传感器测试报告&lt;/div&gt;&lt;div&gt;提交硬件组开发&lt;br&gt;&lt;/div&gt;&lt;div&gt;制定物联网协议&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="opS0Q5YLN_Wq9L0eivw5-63" value="&lt;div&gt;传感器测试报告&lt;/div&gt;&lt;div&gt;提交硬件组开发&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="720" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="opS0Q5YLN_Wq9L0eivw5-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="opS0Q5YLN_Wq9L0eivw5-64" target="opS0Q5YLN_Wq9L0eivw5-58" edge="1">
@@ -111,10 +111,10 @@
         <mxCell id="opS0Q5YLN_Wq9L0eivw5-64" value="&lt;div&gt;测试报告&lt;/div&gt;&lt;div&gt;提交产品管理部重新选型&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="550" y="640" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="opS0Q5YLN_Wq9L0eivw5-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="opS0Q5YLN_Wq9L0eivw5-65" target="opS0Q5YLN_Wq9L0eivw5-66" edge="1">
+        <mxCell id="5_iy5CrKA3P5nDqKIRZY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="opS0Q5YLN_Wq9L0eivw5-65" target="opS0Q5YLN_Wq9L0eivw5-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="opS0Q5YLN_Wq9L0eivw5-65" value="新传感器接入开发" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="opS0Q5YLN_Wq9L0eivw5-65" value="&lt;div&gt;新传感器接入开发&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="900" y="500" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="opS0Q5YLN_Wq9L0eivw5-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="opS0Q5YLN_Wq9L0eivw5-66" target="opS0Q5YLN_Wq9L0eivw5-67" edge="1">
