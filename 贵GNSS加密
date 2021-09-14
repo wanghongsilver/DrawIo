@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T03:30:52.037Z" agent="5.0 (Windows)" etag="rrs3x46Qvrpvfi9ErEHR" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-14T06:24:53.516Z" agent="5.0 (Windows)" etag="Zn1MZHxcTTpN6LbqDwZR" version="14.9.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CA加密解密流程">
     <mxGraphModel dx="1422" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -30,11 +30,11 @@
         <mxCell id="H1jgD0wka6j-tLMQjsk--7" value="解密服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="380" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H1jgD0wka6j-tLMQjsk--8" value="数据转发服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="160" width="120" height="60" as="geometry" />
+        <mxCell id="H1jgD0wka6j-tLMQjsk--8" value="&lt;div&gt;数据转发服务&lt;/div&gt;&lt;div&gt;根据加密设备ID和（IP:Port）对照表&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="160" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H1jgD0wka6j-tLMQjsk--9" value="AMS解算软件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="330" width="120" height="60" as="geometry" />
+        <mxCell id="H1jgD0wka6j-tLMQjsk--9" value="&lt;div&gt;AMS解算软件&lt;/div&gt;&lt;div&gt;解算+结果推送&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H1jgD0wka6j-tLMQjsk--11" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="H1jgD0wka6j-tLMQjsk--2" target="H1jgD0wka6j-tLMQjsk--7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -53,18 +53,13 @@
             <mxPoint x="550" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H1jgD0wka6j-tLMQjsk--15" value="&lt;div&gt;解密原始数据&lt;/div&gt;&lt;div&gt;加密设备ID&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H1jgD0wka6j-tLMQjsk--13">
-          <mxGeometry x="-0.3111" y="-4" relative="1" as="geometry">
-            <mxPoint x="9" y="-4" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="H1jgD0wka6j-tLMQjsk--14" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="H1jgD0wka6j-tLMQjsk--8" target="H1jgD0wka6j-tLMQjsk--9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="600" y="290" as="sourcePoint" />
             <mxPoint x="650" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="H1jgD0wka6j-tLMQjsk--16" value="对应站点数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H1jgD0wka6j-tLMQjsk--14">
+        <mxCell id="H1jgD0wka6j-tLMQjsk--16" value="&lt;div&gt;TCP连接&lt;/div&gt;&lt;div&gt;指定IP：port发送原始数据&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="H1jgD0wka6j-tLMQjsk--14">
           <mxGeometry x="-0.4364" y="3" relative="1" as="geometry">
             <mxPoint x="-3" y="19" as="offset" />
           </mxGeometry>
@@ -73,6 +68,30 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="400" as="sourcePoint" />
             <mxPoint x="320" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H1jgD0wka6j-tLMQjsk--21" value="" style="endArrow=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H1jgD0wka6j-tLMQjsk--22" value="" style="endArrow=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="240" as="sourcePoint" />
+            <mxPoint x="770" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H1jgD0wka6j-tLMQjsk--23" value="" style="endArrow=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="240" as="sourcePoint" />
+            <mxPoint x="770" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H1jgD0wka6j-tLMQjsk--24" value="" style="endArrow=none;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="140" as="sourcePoint" />
+            <mxPoint x="770" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
