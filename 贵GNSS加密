@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-14T09:22:49.022Z" agent="5.0 (Windows)" etag="7GVl7MK2XFcY1JF8mqiC" version="14.9.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-14T09:44:46.945Z" agent="5.0 (Windows)" etag="91e5-Qv6wfluJE_yz0H6" version="14.9.3" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="CA加密解密流程">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
         <mxCell id="plnw6BUD-bOwxuaCo-2y-7" value="本地加密设备" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="plnw6BUD-bOwxuaCo-2y-1">
           <mxGeometry x="110" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="plnw6BUD-bOwxuaCo-2y-8" value="解密服务主机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="plnw6BUD-bOwxuaCo-2y-1">
+        <mxCell id="plnw6BUD-bOwxuaCo-2y-8" value="本地解密服务主机" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="plnw6BUD-bOwxuaCo-2y-1">
           <mxGeometry x="414" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="plnw6BUD-bOwxuaCo-2y-9" value="&lt;div&gt;数据转发服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="plnw6BUD-bOwxuaCo-2y-1">
@@ -173,6 +173,9 @@
             <mxPoint x="-3" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="hLerwvoBCg9tFSTSSr6N-0" value="外挂加密设备数据流图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="plnw6BUD-bOwxuaCo-2y-1">
+          <mxGeometry x="250" y="420" width="140" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -208,7 +211,7 @@
           <mxGeometry x="414" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RGMEiR2ITTI-fGb-iW7g-9" value="&lt;div&gt;数据转发服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RGMEiR2ITTI-fGb-iW7g-1">
-          <mxGeometry x="410" y="160" width="220" height="60" as="geometry" />
+          <mxGeometry x="410" y="160" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RGMEiR2ITTI-fGb-iW7g-10" value="&lt;div&gt;AMS解算软件&lt;/div&gt;&lt;div&gt;解算+结果推送&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RGMEiR2ITTI-fGb-iW7g-1">
           <mxGeometry x="570" y="320" width="120" height="60" as="geometry" />
@@ -224,7 +227,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RGMEiR2ITTI-fGb-iW7g-13" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="RGMEiR2ITTI-fGb-iW7g-1" source="RGMEiR2ITTI-fGb-iW7g-9" target="RGMEiR2ITTI-fGb-iW7g-10">
+        <mxCell id="RGMEiR2ITTI-fGb-iW7g-13" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.842;exitY=1.067;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="RGMEiR2ITTI-fGb-iW7g-1" source="RGMEiR2ITTI-fGb-iW7g-9" target="RGMEiR2ITTI-fGb-iW7g-10">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="670" y="230" as="sourcePoint" />
             <mxPoint x="650" y="240" as="targetPoint" />
@@ -241,7 +244,7 @@
             <mxPoint x="320" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RGMEiR2ITTI-fGb-iW7g-16" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.286;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;startArrow=block;" edge="1" parent="RGMEiR2ITTI-fGb-iW7g-1" source="RGMEiR2ITTI-fGb-iW7g-9" target="RGMEiR2ITTI-fGb-iW7g-8">
+        <mxCell id="RGMEiR2ITTI-fGb-iW7g-16" value="" style="shape=flexArrow;endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;startArrow=block;" edge="1" parent="RGMEiR2ITTI-fGb-iW7g-1" source="RGMEiR2ITTI-fGb-iW7g-9" target="RGMEiR2ITTI-fGb-iW7g-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="414" y="230" as="sourcePoint" />
             <mxPoint x="464" y="320" as="targetPoint" />
@@ -251,6 +254,9 @@
           <mxGeometry x="-0.4364" y="3" relative="1" as="geometry">
             <mxPoint x="-3" y="19" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZeLaxOYN6GY2qYdYySp-0" value="模拟外挂加密设备数据流图" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="RGMEiR2ITTI-fGb-iW7g-1">
+          <mxGeometry x="240" y="420" width="160" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
