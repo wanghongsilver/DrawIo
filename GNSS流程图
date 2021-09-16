@@ -1,62 +1,77 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T09:31:17.500Z" agent="5.0 (Windows)" etag="nob-NKaHPAh7J_nxXzMZ" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T03:02:12.553Z" agent="5.0 (Windows)" etag="ghIGv5k4hXrL73BOPYjW" version="14.9.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="配置文件备份">
-    <mxGraphModel dx="1673" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-0" target="rLl5TcAmET9bj_bhKdxJ-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-0" target="rLl5TcAmET9bj_bhKdxJ-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-0" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-0" value="开始" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="80" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-1" target="rLl5TcAmET9bj_bhKdxJ-2">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-1" target="rLl5TcAmET9bj_bhKdxJ-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-1" value="&lt;div&gt;cfg_bak_s_init&lt;/div&gt;&lt;div&gt;配置备份文件资源初始化&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-1" value="&lt;div&gt;cfg_bak_s_init&lt;/div&gt;&lt;div&gt;配置备份文件资源初始化&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="205" y="200" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-2" target="rLl5TcAmET9bj_bhKdxJ-3">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-2" target="rLl5TcAmET9bj_bhKdxJ-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-2" value="&lt;div&gt;设置配置文件为软连接文件&lt;/div&gt;&lt;div&gt;inifilepath为lnConfig.json&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-2" value="&lt;div&gt;设置配置文件为软连接文件&lt;/div&gt;&lt;div&gt;inifilepath为lnConfig.json&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="190" y="760" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-3" target="rLl5TcAmET9bj_bhKdxJ-6">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-3" target="rLl5TcAmET9bj_bhKdxJ-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-3" value="&lt;div&gt;从配置文件中获取系统参数；&lt;/div&gt;GetIniFileParamJson" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-3" value="&lt;div&gt;从配置文件中获取系统参数；&lt;/div&gt;GetIniFileParamJson" style="whiteSpace=wrap;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="195" y="880" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-6" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-6" value="结束" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="220" y="1150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-7" target="rLl5TcAmET9bj_bhKdxJ-10">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-7" target="rLl5TcAmET9bj_bhKdxJ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-7" value="&lt;div&gt;输入参数检查；&lt;/div&gt;&lt;div&gt;资源保护锁初始化；&lt;/div&gt;&lt;div&gt;配置文件：&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; cfg_name&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; = &quot;/opt/APP/config/Config.json&quot;;&lt;br&gt;备份配置文件：bak_cfg_name&amp;nbsp;&amp;nbsp; = &quot;/etc/Config.json&quot;;&lt;br&gt;软链接文件：&amp;nbsp;&amp;nbsp;&amp;nbsp; ln_cfg_name&amp;nbsp;&amp;nbsp;&amp;nbsp; = &quot;/opt/APP/config/lnConfig.json&quot;;&lt;br&gt;缓冲配置文件：cache_cfg_name = &quot;/opt/APP/config/Config.json.bak&quot;;&lt;br&gt;&lt;/div&gt;&lt;div&gt;加锁；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-7" value="&lt;div&gt;输入参数检查；&lt;/div&gt;&lt;div&gt;资源保护锁初始化；&lt;/div&gt;&lt;div&gt;配置文件：&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; cfg_name&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; = &quot;/opt/APP/config/Config.json&quot;;&lt;br&gt;备份配置文件：bak_cfg_name&amp;nbsp;&amp;nbsp; = &quot;/etc/Config.json&quot;;&lt;br&gt;软链接文件：&amp;nbsp;&amp;nbsp;&amp;nbsp; ln_cfg_name&amp;nbsp;&amp;nbsp;&amp;nbsp; = &quot;/opt/APP/config/lnConfig.json&quot;;&lt;br&gt;缓冲配置文件：cache_cfg_name = &quot;/opt/APP/config/Config.json.bak&quot;;&lt;br&gt;&lt;/div&gt;&lt;div&gt;加锁；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="200" width="380" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-10" target="rLl5TcAmET9bj_bhKdxJ-11">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-10" target="rLl5TcAmET9bj_bhKdxJ-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-10" value="&lt;div&gt;配置文件stat失败，复制备份配置文件；&lt;br&gt;&lt;/div&gt;&lt;div&gt;配置文件大小为0，复制备份配置文件；&lt;/div&gt;&lt;div&gt;配置文件无&quot;SN&quot;字段，复制备份配置文件；&lt;/div&gt;&lt;div&gt;配置文件有“19TA00”字段，复制备份配置文件；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-10" value="&lt;div&gt;配置文件stat失败，复制备份配置文件；&lt;br&gt;&lt;/div&gt;&lt;div&gt;配置文件大小为0，复制备份配置文件；&lt;/div&gt;&lt;div&gt;配置文件无&quot;SN&quot;字段，复制备份配置文件；&lt;/div&gt;&lt;div&gt;配置文件有“19TA00”字段，复制备份配置文件；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="375" width="265" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-11" target="rLl5TcAmET9bj_bhKdxJ-12">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-11" target="rLl5TcAmET9bj_bhKdxJ-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-11" value="备份配置文件stat失败，删除备份配置文件；&lt;br&gt;&lt;div&gt;备份配置文件大小为0，删除备份配置文件；&lt;/div&gt;&lt;div&gt;备份配置文件无&quot;SN&quot;字段，删除备份配置文件；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-11" value="备份配置文件stat失败，删除备份配置文件；&lt;br&gt;&lt;div&gt;备份配置文件大小为0，删除备份配置文件；&lt;/div&gt;&lt;div&gt;备份配置文件无&quot;SN&quot;字段，删除备份配置文件；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="495" width="265" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-12" target="rLl5TcAmET9bj_bhKdxJ-13">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-12" target="rLl5TcAmET9bj_bhKdxJ-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-12" value="软链接stat失败，新建软链接指向配置文件；&lt;br&gt;&lt;div&gt;软链接文件类型不是软链接文件，新建软链接指向配置文件；&lt;/div&gt;&lt;div&gt;读取软链接文件失败，新建软链接指向配置文件；&lt;br&gt;&lt;/div&gt;&lt;div&gt;读取软链接文件内容非配置文件备份配置文件文件，新建软链接指向配置文件；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-12" value="软链接stat失败，新建软链接指向配置文件；&lt;br&gt;&lt;div&gt;软链接文件类型不是软链接文件，新建软链接指向配置文件；&lt;/div&gt;&lt;div&gt;读取软链接文件失败，新建软链接指向配置文件；&lt;br&gt;&lt;/div&gt;&lt;div&gt;读取软链接文件内容非配置文件备份配置文件文件，新建软链接指向配置文件；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="615" width="425" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="rLl5TcAmET9bj_bhKdxJ-13" value="&lt;div&gt;删除缓冲配置文件；&lt;/div&gt;&lt;div&gt;解锁；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="rLl5TcAmET9bj_bhKdxJ-13" value="&lt;div&gt;删除缓冲配置文件；&lt;/div&gt;&lt;div&gt;解锁；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="735" width="125" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-0" value="&lt;div&gt;从配置文件获取json对象数据；&lt;/div&gt;&lt;div&gt;GetJsonObject&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="880" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-1" value="&lt;div&gt;获取Json对象数据失败，&lt;/div&gt;&lt;div&gt;解锁，&lt;/div&gt;&lt;div&gt;执行检查配置文件失败：cfg_bak_s_errcheck&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="1140" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-2" value="&lt;div&gt;读取Json对象数据更新到系统运行参数；&lt;/div&gt;&lt;div&gt;解锁；&lt;/div&gt;&lt;div&gt;删除Json对象；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="470" y="1280" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-3" value="&lt;div&gt;加锁；&lt;/div&gt;&lt;div&gt;打开软链接文件失败，解锁，执行检查文件失败:cfg_bak_s_errcheck，return null；&lt;/div&gt;&lt;div&gt;fseek移动文件指针到文件尾；&lt;/div&gt;&lt;div&gt;ftell获取文件内容长度；&lt;/div&gt;&lt;div&gt;文件内容长度为0，解锁，执行文件检查失败，关闭打开文件，return null；&lt;/div&gt;&lt;div&gt;fseek移动文件指针到文件头；&lt;/div&gt;&lt;div&gt;根据文件长度malloc申请内存；&lt;/div&gt;&lt;div&gt;fread读取文件全部内存；&lt;/div&gt;&lt;div&gt;关闭文件；&lt;/div&gt;&lt;div&gt;根据文件内容获取Json对象；&lt;/div&gt;&lt;div&gt;Json对象为NULL，解锁，执行检查文件失败，释放申请内存，return null；&lt;/div&gt;&lt;div&gt;释放申请内存；&lt;/div&gt;&lt;div&gt;return json对象；&lt;br&gt;&lt;/div&gt;&lt;div&gt;注：此时仍然是加锁状态&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="880" width="500" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-4" value="&lt;div&gt;输入指针空，return -1；&lt;/div&gt;&lt;div&gt;检查&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="1140" width="500" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
