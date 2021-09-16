@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T03:02:12.553Z" agent="5.0 (Windows)" etag="ghIGv5k4hXrL73BOPYjW" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T05:52:10.300Z" agent="5.0 (Windows)" etag="qpYFXo719j7Rk7OAeQCI" version="14.9.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="配置文件备份">
     <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -70,8 +70,17 @@
         <mxCell id="W2pPkJwlOb8j0nF1jwFn-3" value="&lt;div&gt;加锁；&lt;/div&gt;&lt;div&gt;打开软链接文件失败，解锁，执行检查文件失败:cfg_bak_s_errcheck，return null；&lt;/div&gt;&lt;div&gt;fseek移动文件指针到文件尾；&lt;/div&gt;&lt;div&gt;ftell获取文件内容长度；&lt;/div&gt;&lt;div&gt;文件内容长度为0，解锁，执行文件检查失败，关闭打开文件，return null；&lt;/div&gt;&lt;div&gt;fseek移动文件指针到文件头；&lt;/div&gt;&lt;div&gt;根据文件长度malloc申请内存；&lt;/div&gt;&lt;div&gt;fread读取文件全部内存；&lt;/div&gt;&lt;div&gt;关闭文件；&lt;/div&gt;&lt;div&gt;根据文件内容获取Json对象；&lt;/div&gt;&lt;div&gt;Json对象为NULL，解锁，执行检查文件失败，释放申请内存，return null；&lt;/div&gt;&lt;div&gt;释放申请内存；&lt;/div&gt;&lt;div&gt;return json对象；&lt;br&gt;&lt;/div&gt;&lt;div&gt;注：此时仍然是加锁状态&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="840" y="880" width="500" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="W2pPkJwlOb8j0nF1jwFn-4" value="&lt;div&gt;输入指针空，return -1；&lt;/div&gt;&lt;div&gt;检查&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="840" y="1140" width="500" height="80" as="geometry" />
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-4" value="&lt;div&gt;输入指针空，return -1；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="840" y="1140" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-5" value="&lt;div&gt;判断备份配置文件&lt;/div&gt;&lt;div&gt;是否存在？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="895" y="1230" width="145" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-6" value="&lt;div&gt;获取Json对象；&lt;/div&gt;&lt;div&gt;获取默认配置并保存到配置文件目录中；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="1370" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-7" value="&lt;div&gt;输入指针空，return -1；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1110" y="1410" width="190" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
