@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-16T05:52:10.300Z" agent="5.0 (Windows)" etag="qpYFXo719j7Rk7OAeQCI" version="14.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-16T06:06:20.880Z" agent="5.0 (Windows)" etag="FZzIBrqaQOhmzzQjNRxF" version="14.9.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="配置文件备份">
-    <mxGraphModel dx="1422" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="885" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -58,29 +58,75 @@
         <mxCell id="rLl5TcAmET9bj_bhKdxJ-13" value="&lt;div&gt;删除缓冲配置文件；&lt;/div&gt;&lt;div&gt;解锁；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="470" y="735" width="125" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W2pPkJwlOb8j0nF1jwFn-0" target="W2pPkJwlOb8j0nF1jwFn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W2pPkJwlOb8j0nF1jwFn-0" value="&lt;div&gt;从配置文件获取json对象数据；&lt;/div&gt;&lt;div&gt;GetJsonObject&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="470" y="880" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W2pPkJwlOb8j0nF1jwFn-1" target="W2pPkJwlOb8j0nF1jwFn-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W2pPkJwlOb8j0nF1jwFn-1" value="&lt;div&gt;获取Json对象数据失败，&lt;/div&gt;&lt;div&gt;解锁，&lt;/div&gt;&lt;div&gt;执行检查配置文件失败：cfg_bak_s_errcheck&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="470" y="1140" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W2pPkJwlOb8j0nF1jwFn-2" value="&lt;div&gt;读取Json对象数据更新到系统运行参数；&lt;/div&gt;&lt;div&gt;解锁；&lt;/div&gt;&lt;div&gt;删除Json对象；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="1280" width="260" height="60" as="geometry" />
+          <mxGeometry x="470" y="1510" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W2pPkJwlOb8j0nF1jwFn-3" value="&lt;div&gt;加锁；&lt;/div&gt;&lt;div&gt;打开软链接文件失败，解锁，执行检查文件失败:cfg_bak_s_errcheck，return null；&lt;/div&gt;&lt;div&gt;fseek移动文件指针到文件尾；&lt;/div&gt;&lt;div&gt;ftell获取文件内容长度；&lt;/div&gt;&lt;div&gt;文件内容长度为0，解锁，执行文件检查失败，关闭打开文件，return null；&lt;/div&gt;&lt;div&gt;fseek移动文件指针到文件头；&lt;/div&gt;&lt;div&gt;根据文件长度malloc申请内存；&lt;/div&gt;&lt;div&gt;fread读取文件全部内存；&lt;/div&gt;&lt;div&gt;关闭文件；&lt;/div&gt;&lt;div&gt;根据文件内容获取Json对象；&lt;/div&gt;&lt;div&gt;Json对象为NULL，解锁，执行检查文件失败，释放申请内存，return null；&lt;/div&gt;&lt;div&gt;释放申请内存；&lt;/div&gt;&lt;div&gt;return json对象；&lt;br&gt;&lt;/div&gt;&lt;div&gt;注：此时仍然是加锁状态&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="840" y="880" width="500" height="220" as="geometry" />
+          <mxGeometry x="840" y="855" width="500" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W2pPkJwlOb8j0nF1jwFn-4" target="W2pPkJwlOb8j0nF1jwFn-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W2pPkJwlOb8j0nF1jwFn-4" value="&lt;div&gt;输入指针空，return -1；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="840" y="1140" width="190" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W2pPkJwlOb8j0nF1jwFn-5" target="W2pPkJwlOb8j0nF1jwFn-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="935" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W2pPkJwlOb8j0nF1jwFn-5" target="W2pPkJwlOb8j0nF1jwFn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-16" value="不存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W2pPkJwlOb8j0nF1jwFn-15">
+          <mxGeometry x="-0.4423" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="W2pPkJwlOb8j0nF1jwFn-5" value="&lt;div&gt;判断备份配置文件&lt;/div&gt;&lt;div&gt;是否存在？&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="895" y="1230" width="145" height="130" as="geometry" />
+          <mxGeometry x="862.5" y="1220" width="145" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="W2pPkJwlOb8j0nF1jwFn-6" value="&lt;div&gt;获取Json对象；&lt;/div&gt;&lt;div&gt;获取默认配置并保存到配置文件目录中；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1160" y="1370" width="270" height="50" as="geometry" />
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-6" value="&lt;div&gt;获取Json对象；&lt;/div&gt;&lt;div&gt;获取默认配置并保存到配置文件中；&lt;/div&gt;&lt;div&gt;新建软链接指向配置文件；&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1290" y="1400" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W2pPkJwlOb8j0nF1jwFn-7" value="&lt;div&gt;输入指针空，return -1；&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1110" y="1410" width="190" height="50" as="geometry" />
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-10" value="&lt;div&gt;新建软链接文件指向备份配置文件；&lt;/div&gt;&lt;div&gt;根据软链接获取Json对象；&lt;/div&gt;&lt;div&gt;Json对象为NULL，获取默认配置到配置文件，新建软链接指向配置文件；&lt;/div&gt;&lt;div&gt;Json对象不为空，备份正常，重启&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="835" y="1400" width="400" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-17" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;exitX=1.006;exitY=0.43;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W2pPkJwlOb8j0nF1jwFn-1" target="W2pPkJwlOb8j0nF1jwFn-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765" y="1164.4099999999999" as="sourcePoint" />
+            <mxPoint x="835" y="1164.4099999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-19" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;exitX=1.007;exitY=0.556;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-1" target="rLl5TcAmET9bj_bhKdxJ-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.99999999999955" y="240" as="sourcePoint" />
+            <mxPoint x="450" y="228" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-20" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rLl5TcAmET9bj_bhKdxJ-3" target="W2pPkJwlOb8j0nF1jwFn-0">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.99999999999955" y="909.4100000000001" as="sourcePoint" />
+            <mxPoint x="449.99999999999955" y="909.4100000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W2pPkJwlOb8j0nF1jwFn-21" value="" style="shape=flexArrow;endArrow=classic;html=1;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="W2pPkJwlOb8j0nF1jwFn-0" target="W2pPkJwlOb8j0nF1jwFn-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="699.9999999999995" y="909.4100000000001" as="sourcePoint" />
+            <mxPoint x="810" y="920" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
