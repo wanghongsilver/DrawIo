@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T21:29:00.446Z" agent="5.0 (Windows)" etag="7N3ZsV5m9HbOLUGiokBP" version="15.2.9" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-09-23T21:46:37.556Z" agent="5.0 (Windows)" etag="fnNZmyKuKEENZMFiFy_V" version="15.2.9" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用示意图">
     <mxGraphModel dx="1038" dy="536" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V1VPJK_5dPWO7gdKGuEj" name="系统总体结构及功能">
-    <mxGraphModel dx="2595" dy="1340" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="1483" dy="766" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="RfjPzbM18qXmye1a86Rj-0" />
         <mxCell id="RfjPzbM18qXmye1a86Rj-1" parent="RfjPzbM18qXmye1a86Rj-0" />
@@ -407,6 +407,49 @@
             <mxPoint x="830" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="545Qbv9x9VIHj7EcC76F" name="USB">
+    <mxGraphModel dx="865" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="Wt3ThDw7ncaQVXdXc1BA-0" />
+        <mxCell id="Wt3ThDw7ncaQVXdXc1BA-1" parent="Wt3ThDw7ncaQVXdXc1BA-0" />
+        <mxCell id="RlOasQcGg7sOLUkzXabT-2" value="5V转3.3V LDO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wt3ThDw7ncaQVXdXc1BA-1">
+          <mxGeometry x="700" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RlOasQcGg7sOLUkzXabT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="Wt3ThDw7ncaQVXdXc1BA-1" source="RlOasQcGg7sOLUkzXabT-4" target="RlOasQcGg7sOLUkzXabT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RlOasQcGg7sOLUkzXabT-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="Wt3ThDw7ncaQVXdXc1BA-1" source="RlOasQcGg7sOLUkzXabT-4" target="RlOasQcGg7sOLUkzXabT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RlOasQcGg7sOLUkzXabT-4" value="USB-C接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wt3ThDw7ncaQVXdXc1BA-1">
+          <mxGeometry x="340" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RlOasQcGg7sOLUkzXabT-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="Wt3ThDw7ncaQVXdXc1BA-1" source="RlOasQcGg7sOLUkzXabT-5" target="RlOasQcGg7sOLUkzXabT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RlOasQcGg7sOLUkzXabT-5" value="USB-C ESD保护" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wt3ThDw7ncaQVXdXc1BA-1">
+          <mxGeometry x="520" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RlOasQcGg7sOLUkzXabT-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="Wt3ThDw7ncaQVXdXc1BA-1" source="RlOasQcGg7sOLUkzXabT-6" target="RlOasQcGg7sOLUkzXabT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RlOasQcGg7sOLUkzXabT-6" value="USB接口电源保护" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wt3ThDw7ncaQVXdXc1BA-1">
+          <mxGeometry x="520" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RlOasQcGg7sOLUkzXabT-7" value="四路USB集线器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Wt3ThDw7ncaQVXdXc1BA-1">
+          <mxGeometry x="700" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VhhK5FFTNgiHWcoDxx7u" name="串口">
+    <mxGraphModel dx="1038" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="CyE3Zp4xFHjfrqnyHcEn-0" />
+        <mxCell id="CyE3Zp4xFHjfrqnyHcEn-1" parent="CyE3Zp4xFHjfrqnyHcEn-0" />
       </root>
     </mxGraphModel>
   </diagram>
