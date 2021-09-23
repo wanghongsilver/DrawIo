@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T21:08:31.051Z" agent="5.0 (Windows)" etag="kgRfd7NXxM477G5611HE" version="15.2.9" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-23T21:10:17.559Z" agent="5.0 (Windows)" etag="u9KkehKPdTfqQFbAF80y" version="15.2.9" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="应用示意图">
     <mxGraphModel dx="1038" dy="536" grid="0" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -168,7 +168,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="V1VPJK_5dPWO7gdKGuEj" name="系统总体结构及功能">
-    <mxGraphModel dx="2076" dy="1072" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="716" dy="370" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="RfjPzbM18qXmye1a86Rj-0" />
         <mxCell id="RfjPzbM18qXmye1a86Rj-1" parent="RfjPzbM18qXmye1a86Rj-0" />
@@ -217,7 +217,7 @@
         <mxCell id="RfjPzbM18qXmye1a86Rj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="RfjPzbM18qXmye1a86Rj-1" source="RfjPzbM18qXmye1a86Rj-9" target="RfjPzbM18qXmye1a86Rj-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RfjPzbM18qXmye1a86Rj-9" value="通信模拟选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
+        <mxCell id="RfjPzbM18qXmye1a86Rj-9" value="通信信道切换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
           <mxGeometry x="1060" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RfjPzbM18qXmye1a86Rj-10" value="信号通信保护接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
@@ -261,7 +261,7 @@
         <mxCell id="RfjPzbM18qXmye1a86Rj-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="RfjPzbM18qXmye1a86Rj-1" source="RfjPzbM18qXmye1a86Rj-67" target="RfjPzbM18qXmye1a86Rj-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RfjPzbM18qXmye1a86Rj-67" value="通信模拟选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
+        <mxCell id="RfjPzbM18qXmye1a86Rj-67" value="通信信道切换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
           <mxGeometry x="1060" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RfjPzbM18qXmye1a86Rj-68" value="信号通信保护接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
@@ -305,7 +305,7 @@
         <mxCell id="RfjPzbM18qXmye1a86Rj-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="RfjPzbM18qXmye1a86Rj-1" source="RfjPzbM18qXmye1a86Rj-80" target="RfjPzbM18qXmye1a86Rj-81">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RfjPzbM18qXmye1a86Rj-80" value="通信模拟选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
+        <mxCell id="RfjPzbM18qXmye1a86Rj-80" value="通信信道切换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
           <mxGeometry x="1060" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RfjPzbM18qXmye1a86Rj-81" value="信号通信保护接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
@@ -349,7 +349,7 @@
         <mxCell id="RfjPzbM18qXmye1a86Rj-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=block;startFill=1;" edge="1" parent="RfjPzbM18qXmye1a86Rj-1" source="RfjPzbM18qXmye1a86Rj-93" target="RfjPzbM18qXmye1a86Rj-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RfjPzbM18qXmye1a86Rj-93" value="通信模拟选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
+        <mxCell id="RfjPzbM18qXmye1a86Rj-93" value="通信信道切换" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
           <mxGeometry x="1060" y="1050" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RfjPzbM18qXmye1a86Rj-94" value="信号通信保护接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="RfjPzbM18qXmye1a86Rj-1">
